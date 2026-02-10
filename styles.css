@@ -1,0 +1,113 @@
+/* 1. Body */
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Parent Container */
+.product-card {
+    width: 800px;
+    height: 500px;
+    background-color: beige;
+    margin: 120px auto 0 auto;
+    display: flex;
+}
+
+/* 3. Left Image Column */
+.left-img-col {
+    width: 50%;
+    height: 100%;
+}
+
+.left-img-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 4. Right Info Column */
+.right-info-col {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+/* 5. Heading */
+.right-info-col h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* 6. Subheading */
+.right-info-col h5 {
+    font-size: 18px;
+    color: lightgray;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+/* 7. Description */
+.right-info-col p {
+    font-size: 14px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+/* 8. Available Colors Section */
+.available-colors {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.available-colors span:first-child {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* 9. Color Circles */
+.black-color-container,
+.red-color-container,
+.white-color-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.black-color-container {
+    background-color: black;
+}
+
+.red-color-container {
+    background-color: red;
+}
+
+.white-color-container {
+    background-color: beige;
+    border: 1px solid black;
+}
+
+/* 10. Price Section */
+.price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price h4 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* 11. Button */
+.buy-btn {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: beige;
+    border: none;
+    cursor: pointer;
+}
